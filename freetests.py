@@ -23,7 +23,7 @@ import server
 import random
 
 BASEHOST = '127.0.0.1'
-BASEPORT = 5000
+BASEPORT = 8000
 
 def utf8(utf8bytes):
     return utf8bytes.decode("utf-8")
@@ -36,7 +36,7 @@ class ServerTestCase(unittest.TestCase):
 
     def tearDown(self):
         '''nothing'''
-        
+
     def testNothing(self):
         '''nothing'''
 
